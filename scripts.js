@@ -24,7 +24,7 @@ request.onload = function () {
 
       const p = document.createElement('p');
       woman.country = woman.country.substring(0, 400);
-      p.textContent = `${"Position:" + woman.position +   ", Worth in Billions:" + woman.worth +   ", Age:" + woman.age}`;
+      p.textContent = `${"Position:" + woman.position +   ", Worth:" + woman.worth +   ", Age:" + woman.age}`;
 
       container.appendChild(card);
       card.appendChild(h1);
